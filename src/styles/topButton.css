@@ -1,0 +1,21 @@
+/* Button which scroll to the top */
+
+#topButton {
+  border: 1px double rgb(224, 224, 224);
+  background-color: rgb(33, 33, 33);
+  color: rgb(255, 255, 255);
+  border-radius: 15.5px;
+  font-weight: bolder;
+  font-size: 15.5px;
+  position: fixed;
+  height: 25px;
+  width: 25px;
+  bottom: 1vh;
+  right: 1vw;
+}
+
+#topButton:hover {
+  background-color: rgb(115, 115, 115);
+  color: rgb(255, 175, 175);
+  cursor: pointer;
+}

@@ -1,5 +1,6 @@
 {
   "name": "dnd-5e.github.io",
+  "homepage": "https://dnd-5e.github.io/dev/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

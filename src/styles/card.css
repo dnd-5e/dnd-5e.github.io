@@ -1,0 +1,47 @@
+/* Card styles */
+/* Link card styles */
+.linkcard {
+  background: rgb(85, 85, 85) !important;
+  width: 100%;
+}
+/* Rank card styles */
+.rankcard {
+  background: rgb(85, 85, 85) !important;
+}
+.rankcard img {
+  border: 2px double rgba(171, 150, 111, 1);
+  margin: 10px auto 0px auto;
+  width: max-content;
+}
+/* Rank card styles */
+.charactercard {
+  background: rgb(85, 85, 85) !important;
+}
+.charactercard img {
+  border: 2px double rgba(171, 150, 111, 1);
+  margin: 0px auto 0px auto;
+  width: calc(100% - 4px);
+}
+/* Rank card styles */
+.modal {
+  background: rgb(85, 85, 85) !important;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  max-height: 90vh;
+  overflow: auto;
+  width: 60vw;
+  left: 50%;
+  top: 50%;
+}
+.modal img {
+  border: 2px double rgba(171, 150, 111, 1);
+  max-height: calc(90vh / 2);
+  max-width: calc(60vw- 4px);
+  margin: 10px auto 0px auto;
+  width: max-content;
+}
+.modalCollapse{
+  max-height: calc(90vh / 3) !important;
+  max-width: calc(60vw- 4px);
+  overflow: auto !important;
+}
