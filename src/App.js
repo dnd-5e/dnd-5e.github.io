@@ -102,7 +102,7 @@ const App = () => {
         menu={menu}
       />
       <Routes>
-        <Route path={pages} element={location.search.replace("?", "").length>0?<Navigate to="/dashboard" replace={true} />:<Body />} />
+        <Route path={pages} element={location.search.replace("?", "").length>0?<Navigate to={location.search.replace("?", "")} replace={true} />:<Body />} />
         {Pages.pages.map((item, i) => (
           <Route
             path={pages + item.title}
