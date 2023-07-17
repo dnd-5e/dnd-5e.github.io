@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dev/static/css/main.f1a0566d.css",
-    "main.js": "/dev/static/js/main.0f606811.js",
+    "main.js": "/dev/static/js/main.27154310.js",
     "static/media/soldier.png": "/dev/static/media/soldier.885ef4117289431af622.png",
     "static/media/Commander Shumway.png": "/dev/static/media/Commander Shumway.c95342406bdb04f8b7e5.png",
     "static/media/092Senior Colonel.png": "/dev/static/media/092Senior Colonel.410f91e37bbd355cbc22.png",
@@ -48,10 +48,10 @@
     "static/media/imgPlaceholder.png": "/dev/static/media/imgPlaceholder.f787df485c16be80df57.png",
     "index.html": "/dev/index.html",
     "main.f1a0566d.css.map": "/dev/static/css/main.f1a0566d.css.map",
-    "main.0f606811.js.map": "/dev/static/js/main.0f606811.js.map"
+    "main.27154310.js.map": "/dev/static/js/main.27154310.js.map"
   },
   "entrypoints": [
     "static/css/main.f1a0566d.css",
-    "static/js/main.0f606811.js"
+    "static/js/main.27154310.js"
   ]
 }
