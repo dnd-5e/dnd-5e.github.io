@@ -99,7 +99,7 @@ const FLeft = [
 /** Footer middle */
 const FMiddle = [
   {
-    title: "©2023? Antti Vesanto",
+    title: "©2023?-Antti-Vesanto",
     subMenu: [],
   },
 ];

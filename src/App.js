@@ -134,6 +134,7 @@ const App = () => {
         underMedium={underMedium}
         setMenu={setMenu}
         medium={medium}
+        pages={pages}
         menu={menu}
       />
       {showButton && (
