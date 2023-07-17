@@ -9,20 +9,17 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="manifest" href="/dev/manifest.json" />
     <title>404</title>
-    <script defer="defer" src="/dev/static/js/main.fddb8a0a.js"></script>
-    <link href="/dev/static/css/main.f1a0566d.css" rel="stylesheet" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <script>
       const path = "/dev/";
-      const location = window.location.pathname.split(path);
-      location[0] = "?";
-      window.location.replace(path + location.join("/"))
-      console.log(location[1].length);
-      console.log(path + location.join("/"));
+      const loc = window.location.pathname.split(path);
+      loc[0] = "?";
+      window.location.replace(path + loc.join("/"))
+      console.log(loc[1].length);
+      console.log(path + loc.join("/"));
     </script>
   </body>
 </html>
