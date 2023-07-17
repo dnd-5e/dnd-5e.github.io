@@ -1,6 +1,6 @@
 /** Imports */
 /** Basic */
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import { useMediaQuery } from "@mui/material";
 import { useState, useEffect } from "react";
 import * as React from "react";
@@ -102,7 +102,7 @@ const App = () => {
         menu={menu}
       />
       <Routes>
-        <Route path={pages} Component={Body} />
+        <Route path={pages} element={location.search.replace("?", "").length>0?/**<Navigate to="/dashboard" replace={true} />*/<Body />:<Body />} />
         {Pages.pages.map((item, i) => (
           <Route
             path={pages + item.title}
