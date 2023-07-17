@@ -16,7 +16,7 @@
     <script>
       const path = "/dev/";
       const loc = window.location.pathname.split(path);
-      loc[0] = "?";
+      loc[1]?loc[0] = "?":null;
       window.location.replace(path + loc.join("/"))
       console.log(loc[1].length);
       console.log(path + loc.join("/"));
